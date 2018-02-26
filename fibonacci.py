@@ -10,25 +10,26 @@ sequence is the sum of the previous two numbers in the sequence.
 The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
 """
 
+print("Enter the amount of Fibonacci numbers you'd like.")
+fiboNum = int(input())
 
-def Fibonacci(fibNum):
+
+def Fibonacci(fiboNum):
     
-    print("Enter the amount of Fibonacci numbers you'd like.")
-    fiboNum = int(input())
+    i = 1               
+    fib = []
 
-    i = 1
-
-    if fiboNum == 0
+    if fiboNum == 0:
         fib = []
-    elif fiboNum == 1
+    elif fiboNum == 1:
         fib = [1,1]
-    elif fiboNum == 2
+    elif fiboNum == 2:
         fib = [1,1]
     elif fiboNum > 2:
+        fib = [1,1]
         while i < (fiboNum - 1):
             fib.append(fib[i] + fib[i-1])
             i += 1
-    
     return fib
 
 print(Fibonacci(fiboNum))
